@@ -41,4 +41,14 @@
           color: white;
           background-position: left bottom;
       }
+      @media (max-width:768px) {
+        .button-med {
+            color: white;
+            background: linear-gradient(to right, var(--base-orange) 50%, var(--base-orange) );
+        }
+        .button-med-gray {
+            color: white;
+            background: linear-gradient(to right, var(--base-orange) 50%, var(--base-orange) );
+        }
+      }
   }

@@ -28,7 +28,7 @@ export default function Home() {
   return (
     <>
       <section className="relative bg-gray h-[100vh] w-full bg-cover">
-        <nav className="absolute left-0 flex flex-col top-[30%] gap-4 bg-white p-1 items-center rounded-r-md">
+        <nav className="absolute left-0 hidden flex-col top-[30%] gap-4 bg-white p-1 items-center rounded-r-md md:flex">
           <Link
             href={"https://linkedin.com/in/jérémy-lavallée-giroux-159b40201"}
             className="p-2 hover:bg-primary rounded-md transition-all hover:text-white"
@@ -73,7 +73,7 @@ export default function Home() {
       </section>
       <section
         id="about"
-        className="flex flex-col items-center relative h-[100vh] w-full pt-32 bg-white"
+        className="flex flex-col items-center relative  w-full py-32 bg-white"
       >
         <div className="flex flex-col items-center max-w-2xl gap-4">
           <h1 className="flex flex-col items-center gap-4 uppercase font-bold text-3xl tracking-widest after:content-[''] after:w-12 after:bg-primary after:rounded-md after:px-1 after:py-[2px]">
@@ -84,7 +84,7 @@ export default function Home() {
             and my current skills related to programming and technology
           </div>
         </div>
-        <div className="grid grid-cols-2 gap-12 pt-[120px]">
+        <div className="grid grid-cols-1 gap-12 pt-[120px] md:grid-cols-2">
           <div className="flex flex-col max-w-lg gap-4">
             <h2 className="text-2xl font-bold">Learn about me!</h2>
             <p>
@@ -152,7 +152,7 @@ export default function Home() {
       </section>
       <section
         id="projects"
-        className="flex flex-col items-center relative h-[100vh] w-full pt-32"
+        className="flex flex-col items-center relative w-full pt-32"
       >
         <div className="flex flex-col items-center max-w-2xl gap-4">
           <h1 className="flex flex-col items-center gap-4 uppercase font-bold text-3xl tracking-widest after:content-[''] after:w-12 after:bg-primary after:rounded-md after:px-1 after:py-[2px]">
