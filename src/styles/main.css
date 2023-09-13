@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer components {
+    .button-med {
+      margin-top: 1rem;
+      padding: 1rem 3rem 1rem 3rem;
+      background: linear-gradient(to right, var(--base-orange) 50%, white 50% );
+      background-size: 200% 100%;
+      background-position: right bottom;
+      color: var(--base-orange);
+      border: 3px solid var(--base-orange);
+      width: fit-content;
+      border-radius: 6px;
+      font-weight: bold;
+      transition:500ms all;
+      cursor: pointer;
+    }
+    .button-med:hover {
+        color: white;
+        background-position: left bottom;
+    }
+    .button-med-gray {
+        margin-top: 1rem;
+        padding: 1rem 3rem 1rem 3rem;
+        background: linear-gradient(to right, var(--base-orange) 50%, #f3f2f2 50% );
+        background-size: 200% 100%;
+        background-position: right bottom;
+        color: var(--base-orange);
+        border: 3px solid var(--base-orange);
+        width: fit-content;
+        border-radius: 6px;
+        font-weight: bold;
+        transition:500ms all;
+        cursor: pointer;
+      }
+      .button-med-gray:hover {
+          color: white;
+          background-position: left bottom;
+      }
+  }

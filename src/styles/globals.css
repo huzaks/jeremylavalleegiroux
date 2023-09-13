@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+  --base-orange: #ff8b28;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: poppins, sans-serif;
+ 
+}
+
+body {
+  background-color: #f3f2f2;
+  /* background-color: var(--base-orange); */
+
+}
