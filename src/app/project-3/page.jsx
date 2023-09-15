@@ -19,7 +19,7 @@ import CartManga from '@/public/project-3/CartManga.JPG'
 import OrderManga from '@/public/project-3/OrderManga.JPG'
 import ProductManga from '@/public/project-3/ProductManga.JPG'
 import "@/styles/main.css";
-import Project3Demo from "@/components/Project2Demo";
+import ProjectDemo from "@/components/ProjectDemo";
 import Footer from "@/components/Footer";
 export default function Project3() {
   return (
@@ -115,7 +115,7 @@ export default function Project3() {
             Demonstrations
           </h1>
           <div className="flex flex-col gap-8 py-4">
-          <Project3Demo
+          <ProjectDemo
               image={HomeManga}
               title={"Home page"}
               p={
@@ -123,7 +123,7 @@ export default function Project3() {
               }
             />
             <div className="w-full border-b-2 border-black/20"></div>
-          <Project3Demo
+          <ProjectDemo
               image={SignUpManga}
               title={"Sign Up page"}
               p={
@@ -131,7 +131,7 @@ export default function Project3() {
               }
             />
             <div className="w-full border-b-2 border-black/20"></div>
-          <Project3Demo
+          <ProjectDemo
               image={LoginManga}
               title={"Login page"}
               p={
@@ -139,7 +139,7 @@ export default function Project3() {
               }
             />
             <div className="w-full border-b-2 border-black/20"></div>
-          <Project3Demo
+          <ProjectDemo
               image={SearchManga}
               title={"Search page"}
               p={
@@ -147,7 +147,7 @@ export default function Project3() {
               }
             />
             <div className="w-full border-b-2 border-black/20"></div>
-            <Project3Demo
+            <ProjectDemo
               image={ProductManga}
               title={"Product page"}
               p={
@@ -156,7 +156,7 @@ export default function Project3() {
             />
             <div className="w-full border-b-2 border-black/20"></div>
           
-          <Project3Demo
+          <ProjectDemo
               image={AccountManga}
               title={"Account page"}
               p={
@@ -164,7 +164,7 @@ export default function Project3() {
               }
             />
             <div className="w-full border-b-2 border-black/20"></div>
-          <Project3Demo
+          <ProjectDemo
               image={WishlistManga}
               title={"Wishlist page"}
               p={
@@ -172,7 +172,7 @@ export default function Project3() {
               }
             />
             <div className="w-full border-b-2 border-black/20"></div>
-          <Project3Demo
+          <ProjectDemo
               image={CartManga}
               title={"Cart page"}
               p={
@@ -180,7 +180,7 @@ export default function Project3() {
               }
             />
             <div className="w-full border-b-2 border-black/20"></div>
-          <Project3Demo
+          <ProjectDemo
               image={OrderManga}
               title={"Order page"}
               p={

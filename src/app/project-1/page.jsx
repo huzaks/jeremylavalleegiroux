@@ -19,7 +19,7 @@ import PostPageBread from "@/public/project-1/PostPageBread.JPG";
 import SettingsPageBread from "@/public/project-1/SettingsPageBread.JPG";
 import UserPageBread from "@/public/project-1/UserPageBread.JPG";
 import FriendsPageBread from "@/public/project-1/FriendsPageBread.JPG";
-import Project1Demo from "@/components/Project1Demo";
+import ProjectDemo from "@/components/ProjectDemo";
 import "@/styles/main.css";
 import Footer from "@/components/Footer";
 export default function Project1() {
@@ -131,7 +131,7 @@ export default function Project1() {
             Demonstrations
           </h1>
           <div className="flex flex-col gap-8 py-4">
-            <Project1Demo
+            <ProjectDemo
               image={LandingPage}
               title={"Landing page"}
               p={
@@ -139,7 +139,7 @@ export default function Project1() {
               }
             />
             <div className="w-full border-b-2 border-black/20"></div>
-            <Project1Demo
+            <ProjectDemo
               image={SignUpBread}
               title={"Sign Up"}
               p={
@@ -147,7 +147,7 @@ export default function Project1() {
               }
             />
             <div className="w-full border-b-2 border-black/20"></div>
-            <Project1Demo
+            <ProjectDemo
               image={CreateCommBread}
               title={"Create Community"}
               p={
@@ -155,7 +155,7 @@ export default function Project1() {
               }
             />
             <div className="w-full border-b-2 border-black/20"></div>
-            <Project1Demo
+            <ProjectDemo
               image={FindCommBread}
               title={"Find a Community"}
               p={
@@ -163,7 +163,7 @@ export default function Project1() {
               }
             />
             <div className="w-full border-b-2 border-black/20"></div>
-            <Project1Demo
+            <ProjectDemo
               image={CommPageBread}
               title={"Community page"}
               p={
@@ -171,7 +171,7 @@ export default function Project1() {
               }
             />
             <div className="w-full border-b-2 border-black/20"></div>
-            <Project1Demo
+            <ProjectDemo
               image={CreatePostPageBread}
               title={"Create a post"}
               p={
@@ -179,7 +179,7 @@ export default function Project1() {
               }
             />
             <div className="w-full border-b-2 border-black/20"></div>
-            <Project1Demo
+            <ProjectDemo
               image={PostPageBread}
               title={"Post page"}
               p={
@@ -187,7 +187,7 @@ export default function Project1() {
               }
             />
             <div className="w-full border-b-2 border-black/20"></div>
-            <Project1Demo
+            <ProjectDemo
               image={SettingsPageBread}
               title={"Settings page"}
               p={
@@ -195,7 +195,7 @@ export default function Project1() {
               }
             />
             <div className="w-full border-b-2 border-black/20"></div>
-            <Project1Demo
+            <ProjectDemo
               image={UserPageBread}
               title={"User page"}
               p={
@@ -203,7 +203,7 @@ export default function Project1() {
               }
             />
             <div className="w-full border-b-2 border-black/20"></div>
-            <Project1Demo
+            <ProjectDemo
               image={FriendsPageBread}
               title={"Friends page"}
               p={

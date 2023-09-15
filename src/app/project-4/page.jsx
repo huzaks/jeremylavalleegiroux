@@ -13,7 +13,7 @@ import HomeEssentials from '@/public/project-4/HomeEssentials.JPG'
 import CategoriesEssentials from '@/public/project-4/CategoriesEssentials.JPG'
 import ProductEssentials from '@/public/project-4/ProductEssentials.JPG'
 import "@/styles/main.css";
-import Project4Demo from "@/components/Project4Demo";
+import ProjectDemo from "@/components/ProjectDemo";
 import Footer from "@/components/Footer";
 export default function Project3() {
   return (
@@ -106,7 +106,7 @@ export default function Project3() {
           </h1>
           <div className="flex flex-col gap-8 py-4">
           
-          <Project4Demo
+          <ProjectDemo
               image={HomeEssentials}
               title={"Landing page"}
               p={
@@ -114,7 +114,7 @@ export default function Project3() {
               }
             />
             <div className="w-full border-b-2 border-black/20"></div>
-          <Project4Demo
+          <ProjectDemo
               image={CategoriesEssentials}
               title={"Categories page"}
               p={
@@ -122,7 +122,7 @@ export default function Project3() {
               }
             />
             <div className="w-full border-b-2 border-black/20"></div>
-          <Project4Demo
+          <ProjectDemo
               image={ProductEssentials}
               title={"Product page"}
               p={

@@ -16,7 +16,7 @@ import ProfileWorkout from '@/public/project-2/ProfileWorkout.JPG'
 import SettingsWorkout from '@/public/project-2/SettingsWorkout.JPG'
 import MyWorkouts from '@/public/project-2/MyWorkouts.JPG'
 import "@/styles/main.css";
-import Project2Demo from "@/components/Project2Demo";
+import ProjectDemo from "@/components/ProjectDemo";
 import Footer from "@/components/Footer";
 export default function Project2() {
   return (
@@ -111,7 +111,7 @@ export default function Project2() {
             Demonstrations
           </h1>
           <div className="flex flex-col gap-8 py-4">
-          <Project2Demo
+          <ProjectDemo
               image={LandingPageWorkout}
               title={"Landing page"}
               p={
@@ -119,7 +119,7 @@ export default function Project2() {
               }
             />
             <div className="w-full border-b-2 border-black/20"></div>
-          <Project2Demo
+          <ProjectDemo
               image={HomePageWorkout}
               title={"Home page"}
               p={
@@ -127,7 +127,7 @@ export default function Project2() {
               }
             />
             <div className="w-full border-b-2 border-black/20"></div>
-          <Project2Demo
+          <ProjectDemo
               image={BookWorkout}
               title={"Book a workout"}
               p={
@@ -135,7 +135,7 @@ export default function Project2() {
               }
             />
             <div className="w-full border-b-2 border-black/20"></div>
-          <Project2Demo
+          <ProjectDemo
               image={ProfileWorkout}
               title={"Profile page"}
               p={
@@ -143,7 +143,7 @@ export default function Project2() {
               }
             />
             <div className="w-full border-b-2 border-black/20"></div>
-          <Project2Demo
+          <ProjectDemo
               image={SettingsWorkout}
               title={"Settings page"}
               p={
@@ -151,7 +151,7 @@ export default function Project2() {
               }
             />
             <div className="w-full border-b-2 border-black/20"></div>
-          <Project2Demo
+          <ProjectDemo
               image={MyWorkouts}
               title={"Personal workouts page"}
               p={

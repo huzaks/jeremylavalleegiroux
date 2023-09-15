@@ -1,13 +1,24 @@
+'use client'
 
 import Image from 'next/image';
-import Link from 'next/link';
+import { useRef } from "react"
+import { motion, useScroll, useTransform } from "framer-motion"
 
 
-export default function Project1Demo({image, title, p}){
+export default function ProjectDemo({image, title, p}){
 
+  const refDemo = useRef(null)
+
+  const {scrollYProgress} = useScroll({
+    target: refDemo,
+    offset: ["0 1", "1.33 1"]
+  })
+
+  const scaleProgress = useTransform(scrollYProgress, [0,1], [0.8, 1])
+  const opacityProgress = useTransform(scrollYProgress, [0,1], [0.6, 1])
  return (
   <>
-  <div className="flex flex-col items-center gap-16 1000px:flex-row ">
+  <motion.div  style={{scale: scaleProgress, opacity: opacityProgress}} ref={refDemo} className="flex flex-col items-center gap-16 1000px:flex-row ">
               <div className="flex flex-col justify-center items-center w-[90%] md:w-fit">
                 <Image
                   src={image}
@@ -23,7 +34,7 @@ export default function Project1Demo({image, title, p}){
                   {p}
                 </p>
               </div>
-            </div>
+            </motion.div>
   </>
  )
 }
