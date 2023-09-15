@@ -17,10 +17,10 @@ import { BsGit, BsFiletypeSql } from "react-icons/bs";
 import { AiOutlineDown } from "react-icons/ai";
 import { useState } from "react";
 import "../styles/main.css";
-import bread from "@/app/breadit-reddit-clone-alpha.vercel.app_.png";
-import dworkout from "@/app/d-workout.vercel.app_.png";
-import mangashop from "@/app/mangashop-nu.vercel.app.png"
-import minissentials from '@/app/minissentials.vercel.app.png'
+import bread from "@/public/project-1/breadit-reddit-clone-alpha.vercel.app_.png";
+import dworkout from "@/public/project-2/d-workout.vercel.app_.png";
+import mangashop from "@/public/project-3/mangashop-nu.vercel.app.png"
+import minissentials from '@/public/project-4/minissentials.vercel.app.png'
 import Project from "@/components/Project";
 import ContactForm from "@/components/ContactForm";
 import Footer from "@/components/Footer";

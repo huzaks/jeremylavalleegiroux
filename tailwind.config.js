@@ -26,7 +26,8 @@ module.exports = {
         'black-project': 'url("https://huzaks.github.io/portfoliojeremy/_next/static/media/breaditfull.89c0562c.png")'
       },
       screens: {
-        '880px': {'raw': '(min-width:880px)'}
+        '880px': {'raw': '(min-width:880px)'},
+        '1000px': {'raw': '(min-width:1000px)'},
       },
       boxShadow: {
         '3xl': '0 10px 100px rgba(0,0,0,.1)'
