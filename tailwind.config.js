@@ -17,6 +17,9 @@ module.exports = {
       borderColor: {
         primary: 'var(--base-orange)'
       },
+      outlineColor: {
+        primary: 'var(--base-orange)'
+      },
       backgroundImage: {
         'gray': 'linear-gradient(to right,rgba(245,245,245,.8),rgba(245,245,245,.8)),url("https://wallpaperaccess.com/full/1156778.jpg")',
         'buttons': 'linear-gradient(to right, var(--base-orange) 50%, #f3f2f2 50% )',
@@ -45,11 +48,16 @@ module.exports = {
             transform: 'translateY(0) translateX(50%)',
             'animation-timing-function': 'cubic-bezier(0,0,0.2,1)'
         }
+        },
+        "scale": {
+          from: {transform: 'scale(1)'},
+          to: {transform: 'scale(1.2)'}
         }
       },
       animation: {
         'line': 'line 1s alternate infinite',
-        "bouncy": 'bouncy 1s infinite'
+        "bouncy": 'bouncy 1s infinite',
+        "scale": 'scale 0.2s'
       }
     },
   },

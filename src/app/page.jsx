@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
+
 import {
   FaGithub,
   FaLinkedin,
@@ -21,6 +22,8 @@ import dworkout from "@/app/d-workout.vercel.app_.png";
 import mangashop from "@/app/mangashop-nu.vercel.app.png"
 import minissentials from '@/app/minissentials.vercel.app.png'
 import Project from "@/components/Project";
+import ContactForm from "@/components/ContactForm";
+import Footer from "@/components/Footer";
 
 
 export default function Home() {
@@ -63,6 +66,7 @@ export default function Home() {
           >
             PROJECTS
           </Link>
+          
         </div>
         <Link
           href={"/#about"}
@@ -73,7 +77,7 @@ export default function Home() {
       </section>
       <section
         id="about"
-        className="flex flex-col items-center relative  w-full py-32 bg-white"
+        className="flex flex-col items-center relative p-4  w-full py-32 bg-white"
       >
         <div className="flex flex-col items-center max-w-2xl gap-4">
           <h1 className="flex flex-col items-center gap-4 uppercase font-bold text-3xl tracking-widest after:content-[''] after:w-12 after:bg-primary after:rounded-md after:px-1 after:py-[2px]">
@@ -84,7 +88,7 @@ export default function Home() {
             and my current skills related to programming and technology
           </div>
         </div>
-        <div className="grid grid-cols-1 gap-12 pt-[120px] md:grid-cols-2">
+        <div className="grid grid-cols-1 gap-12 p-4 pt-[120px] md:grid-cols-2">
           <div className="flex flex-col max-w-lg gap-4">
             <h2 className="text-2xl font-bold">Learn about me!</h2>
             <p>
@@ -115,36 +119,33 @@ export default function Home() {
           >
             <h2 className="text-2xl font-bold">My Skills</h2>
             <div className="flex flex-wrap gap-4">
-              <div className="py-3 px-4 bg-black/20 rounded-md cursor-pointer hover:bg-primary hover:text-white transition-all hover:animate-bounce">
-                {isHovered ? <FaHtml5 className="h-8 w-8 " /> : "HTML"}
+
+              <div className="flex flex-col gap-2 items-center py-3 px-4 rounded-md transition-all">
+                <FaHtml5 className="h-8 w-8 hover:scale-[1.2] transition-all hover:text-primary cursor-pointer " />HTML
               </div>
-              <div className="py-3 px-4 bg-black/20 rounded-md cursor-pointer hover:bg-primary hover:text-white transition-all hover:animate-bounce">
-                {isHovered ? <FaCss3Alt className="h-8 w-8" /> : "CSS"}
+              <div className="flex flex-col gap-2 items-center py-3 px-4 rounded-md transition-all">
+                <FaCss3Alt className="h-8 w-8 hover:scale-[1.2] transition-all hover:text-primary cursor-pointer " />CSS
               </div>
-              <div className="py-3 px-4 bg-black/20 rounded-md cursor-pointer hover:bg-primary hover:text-white transition-all hover:animate-bounce">
-                {isHovered ? (
-                  <IoLogoJavascript className="h-8 w-8" />
-                ) : (
-                  "JavaScript"
-                )}
+              <div className="flex flex-col gap-2 items-center py-3 px-4 rounded-md  transition-all">
+                <IoLogoJavascript className="h-8 w-8 hover:scale-[1.2] transition-all hover:text-primary cursor-pointer " />JavaScript
               </div>
-              <div className="py-3 px-4 bg-black/20 rounded-md cursor-pointer hover:bg-primary hover:text-white transition-all hover:animate-bounce">
-                {isHovered ? <FaReact className="h-8 w-8" /> : "React"}
+              <div className="flex flex-col gap-2 items-center py-3 px-4 rounded-md  transition-all">
+                <FaReact className="h-8 w-8 hover:scale-[1.2] transition-all hover:text-primary cursor-pointer " />React
               </div>
-              <div className="py-3 px-4 bg-black/20 rounded-md cursor-pointer hover:bg-primary hover:text-white transition-all hover:animate-bounce">
-                {isHovered ? <SiTailwindcss className="h-8 w-8" /> : "Tailwind"}
+              <div className="flex flex-col gap-2 items-center py-3 px-4 rounded-md transition-all">
+                <SiTailwindcss className="h-8 w-8 hover:scale-[1.2] transition-all hover:text-primary cursor-pointer " />Tailwind
               </div>
-              <div className="py-3 px-4 bg-black/20 rounded-md cursor-pointer hover:bg-primary hover:text-white transition-all hover:animate-bounce">
-                {isHovered ? <SiNextdotjs className="h-8 w-8" /> : "Next.js"}
+              <div className="flex flex-col gap-2 items-center py-3 px-4 rounded-md transition-all">
+                <SiNextdotjs className="h-8 w-8 hover:scale-[1.2] transition-all hover:text-primary cursor-pointer " />Next.js
               </div>
-              <div className="py-3 px-4 bg-black/20 rounded-md cursor-pointer hover:bg-primary hover:text-white transition-all hover:animate-bounce">
-                {isHovered ? <BsFiletypeSql className="h-8 w-8" /> : "SQL"}
+              <div className="flex flex-col gap-2 items-center py-3 px-4 rounded-md transition-all">
+                <BsFiletypeSql className="h-8 w-8 hover:scale-[1.2] transition-all hover:text-primary cursor-pointer " />SQL
               </div>
-              <div className="py-3 px-4 bg-black/20 rounded-md cursor-pointer hover:bg-primary hover:text-white transition-all hover:animate-bounce">
-                {isHovered ? <BsGit className="h-8 w-8" /> : "Git"}
+              <div className="flex flex-col gap-2 items-center py-3 px-4 rounded-md transition-all">
+                <BsGit className="h-8 w-8 hover:scale-[1.2] transition-all hover:text-primary cursor-pointer " />Git
               </div>
-              <div className="py-3 px-4 bg-black/20 rounded-md cursor-pointer hover:bg-primary hover:text-white transition-all hover:animate-bounce">
-                {isHovered ? <FaGithub className="h-8 w-8" /> : "GitHub"}
+              <div className="flex flex-col gap-2 items-center py-3 px-4 rounded-md transition-all">
+                <FaGithub className="h-8 w-8 hover:scale-[1.2] transition-all hover:text-primary cursor-pointer " />GitHub
               </div>
             </div>
           </div>
@@ -152,7 +153,7 @@ export default function Home() {
       </section>
       <section
         id="projects"
-        className="flex flex-col items-center relative w-full pt-32"
+        className="flex flex-col items-center relative w-full py-32"
       >
         <div className="flex flex-col items-center max-w-2xl gap-4">
           <h1 className="flex flex-col items-center gap-4 uppercase font-bold text-3xl tracking-widest after:content-[''] after:w-12 after:bg-primary after:rounded-md after:px-1 after:py-[2px]">
@@ -162,7 +163,7 @@ export default function Home() {
             Here you will find my personal projects and their complete analysis
           </div>
         </div>
-        <div className="flex flex-col gap-12 pt-24">
+        <div className="flex flex-col gap-12 p-4 pt-24">
           <Project
             name={"Breadit"}
             image={bread}
@@ -179,6 +180,23 @@ export default function Home() {
 
         </div>
       </section>
+      <section
+        id="contact"
+        className="flex flex-col items-center relative w-full p-4 py-32  bg-gray bg-cover"
+      >
+        <div className="flex flex-col items-center max-w-2xl gap-4">
+          <h1 className="flex flex-col items-center gap-4 uppercase font-bold text-3xl tracking-widest after:content-[''] after:w-12 after:bg-primary after:rounded-md after:px-1 after:py-[2px]">
+            Contact
+          </h1>
+          <div className="text-center">
+            Feel free to contact by submitting the form down below, or by messaging directly at my email address <Link className="font-bold hover:text-primary transition-all" href={'mailto:jeremylavalleegiroux@gmail.com'}>jeremylavalleegiroux@gmail.com</Link>   
+          </div>
+        </div>
+        <div className="bg-white  max-w-3xl w-full mt-24 rounded-lg shadow-2xl">
+        <ContactForm />
+        </div>
+      </section>
+      <Footer />
     </>
   );
 }
