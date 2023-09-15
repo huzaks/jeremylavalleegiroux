@@ -56,7 +56,7 @@ export default function Home() {
             Hey! I&apos;m Jérémy
           </h1>
           <p className="text-black/80 font-semibold text-center">
-            A Frontend concentrated Web Developer that loves building beautiful,
+            A Frontend oriented Web Developer that loves building beautiful,
             intuitive and engaging Web Applications that leads to the success of
             the final product.
           </p>
