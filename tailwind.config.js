@@ -53,12 +53,17 @@ module.exports = {
         "scale": {
           from: {transform: 'scale(1)'},
           to: {transform: 'scale(1.2)'}
+        },
+        "menu": {
+          from: {transform: 'translateX(-100%)'},
+          to: {transform: 'translateX(0)'}
         }
       },
       animation: {
         'line': 'line 1s alternate infinite',
         "bouncy": 'bouncy 1s infinite',
-        "scale": 'scale 0.2s'
+        "scale": 'scale 0.2s',
+        "menu": 'menu 1s'
       }
     },
   },
