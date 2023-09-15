@@ -47,13 +47,13 @@ export default function Project2() {
           </h1>
           <div className="flex flex-col gap-4 text-black/70">
             <div>
-              The goal of this project was to create a web applications made for
+              The goal of this project was to create a web application made for
               anyone who would want to achieve a greater mental health status,
               or simply increase their gains 💪.
             </div>
             <div>
               With this website, users can authenticate with their Google
-              account and book workouts with the best trainers in the region!
+              account and book workouts with the best fitness instructors in the region!
             </div>
             <div>
             Learn more in the{" "}
@@ -123,7 +123,7 @@ export default function Project2() {
               image={HomePageWorkout}
               title={"Home page"}
               p={
-                "After scrolling on the home page, you will be able to find all our trainers and their speciality."
+                "After scrolling on the home page, you will be able to find all our fitness instructors and their speciality."
               }
             />
             <div className="w-full border-b-2 border-black/20"></div>

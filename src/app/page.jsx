@@ -172,7 +172,7 @@ export default function Home() {
             }
             link={'/project-1'}
           />
-          <Project name={"D Workout"} image={dworkout} description={"D Workout is a fullstack web application meant to fulfill one purpose : help people better themselves. They can book workouts with the trainers that matches their needs."} link={'/project-2'} />
+          <Project name={"D Workout"} image={dworkout} description={"D Workout is a fullstack web application meant to fulfill one purpose : help people better themselves. They can book workouts with the fitness instructors that matches their needs."} link={'/project-2'} />
 
           <Project name={"Mangashop"} image={mangashop} description={"Mangashop is a fullstack online manga shop web application. The user can manage his cart, his wishlist and explore the 100+ mangas. "} link={'/project-3'} note={"Note: this is my first fullstack web application ever."}/>
 
