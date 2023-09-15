@@ -20,6 +20,7 @@ import OrderManga from '@/public/project-3/OrderManga.JPG'
 import ProductManga from '@/public/project-3/ProductManga.JPG'
 import "@/styles/main.css";
 import Project3Demo from "@/components/Project2Demo";
+import Footer from "@/components/Footer";
 export default function Project3() {
   return (
     <>
@@ -207,14 +208,13 @@ export default function Project3() {
             <Link
               href={"/"}
               className="mt-4 py-4 px-12 bg-white text-black w-fit rounded-md font-bold hover:-translate-y-1 transition-all border-2 border-primary"
-              target="_blank"
-              rel="noopener"
             >
               GO BACK
             </Link>
           </div>
         </div>
       </section>
+      <Footer />
     </>
   );
 }

@@ -21,6 +21,7 @@ import UserPageBread from "@/public/project-1/UserPageBread.JPG";
 import FriendsPageBread from "@/public/project-1/FriendsPageBread.JPG";
 import Project1Demo from "@/components/Project1Demo";
 import "@/styles/main.css";
+import Footer from "@/components/Footer";
 export default function Project1() {
   return (
     <>
@@ -227,14 +228,13 @@ export default function Project1() {
             <Link
               href={"/"}
               className="mt-4 py-4 px-12 bg-white text-black w-fit rounded-md font-bold hover:-translate-y-1 transition-all border-2 border-primary"
-              target="_blank"
-              rel="noopener"
             >
               GO BACK
             </Link>
           </div>
         </div>
       </section>
+      <Footer />
     </>
   );
 }

@@ -14,6 +14,7 @@ import CategoriesEssentials from '@/public/project-4/CategoriesEssentials.JPG'
 import ProductEssentials from '@/public/project-4/ProductEssentials.JPG'
 import "@/styles/main.css";
 import Project4Demo from "@/components/Project4Demo";
+import Footer from "@/components/Footer";
 export default function Project3() {
   return (
     <>
@@ -149,14 +150,13 @@ export default function Project3() {
             <Link
               href={"/"}
               className="mt-4 py-4 px-12 bg-white text-black w-fit rounded-md font-bold hover:-translate-y-1 transition-all border-2 border-primary"
-              target="_blank"
-              rel="noopener"
             >
               GO BACK
             </Link>
           </div>
         </div>
       </section>
+      <Footer />
     </>
   );
 }
