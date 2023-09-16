@@ -147,7 +147,7 @@ export default function Project2() {
               image={SettingsWorkout}
               title={"Settings page"}
               p={
-                "You can access this page by clicking on your profile picture in the top right of the page and selecting Settings from the dropdown menu. On this page you are able to modify your D Workout username."
+                "You can access this page by clicking on your profile picture in the top right of the page and selecting Settings from the dropdown menu. On this page, you are able to modify your D Workout username."
               }
             />
             <div className="w-full border-b-2 border-black/20"></div>
@@ -155,7 +155,7 @@ export default function Project2() {
               image={MyWorkouts}
               title={"Personal workouts page"}
               p={
-                "You can access this page by clicking on your profile picture in the top right of the page and selecting My Workouts from the dropdown menu. Here you are able to view you next workouts and your calendar."
+                "You can access this page by clicking on your profile picture in the top right of the page and selecting My Workouts from the dropdown menu. Here, you are able to view you next workouts and your calendar."
               }
             />
 
