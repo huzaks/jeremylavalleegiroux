@@ -52,7 +52,7 @@ export default function Project1() {
           <div className="flex flex-col gap-4 text-black/70">
             <div>
               This Reddit clone project was made possible by a project video on
-              youtube -{" "}
+              YouTube -{" "}
               <Link
                 href={"https://youtu.be/mSUKMfmLAt0?si=ZdXtHFaB36-91RmV"}
                 className="text-primary font-bold underline"

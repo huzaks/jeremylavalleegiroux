@@ -168,7 +168,7 @@ export default function Home() {
             name={"Breadit"}
             image={bread}
             description={
-              "Breadit is a fullstack Reddit clone built from a Youtube tutorial and improved by me. Reddit is a network of communities where people discuss whatever they like."
+              "Breadit is a fullstack Reddit clone built from a YouTube tutorial and improved by me. Reddit is a network of communities where people discuss whatever they like."
             }
             link={'/project-1'}
           />
