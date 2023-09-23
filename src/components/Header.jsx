@@ -28,7 +28,7 @@ export default function Header() {
     >
       <Link
         href={"/"}
-        className="text-xl font-bold hover:text-primary transition-all uppercase"
+        className="text-xl font-bold hover:text-primary transition-all duration-300 uppercase"
       >
         Jérémy Lavallée-Giroux
       </Link>
