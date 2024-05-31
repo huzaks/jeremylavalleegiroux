@@ -35,7 +35,7 @@ export default function Project1() {
             a live link.
           </p>
           <Link
-            href={"https://breadit-reddit-clone-alpha.vercel.app/"}
+            href={"https://breadit-reddit-clone-snowy.vercel.app/"}
             className="mt-4 py-4 px-20 bg-primary text-white w-fit rounded-md font-bold hover:-translate-y-1 transition-all"
             target="_blank"
             rel="noopener"
@@ -218,7 +218,7 @@ export default function Project1() {
           </h1>
           <div className="flex flex-col md:flex-row gap-4">
             <Link
-              href={"https://breadit-reddit-clone-alpha.vercel.app/"}
+              href={"https://breadit-reddit-clone-snowy.vercel.app/"}
               className="mt-4 py-4 px-12 bg-primary text-white w-fit rounded-md font-bold hover:-translate-y-1 transition-all"
               target="_blank"
               rel="noopener"
