@@ -20,6 +20,7 @@ import "../styles/main.css";
 import bread from "@/public/project-1/breadit-reddit-clone-alpha.vercel.app_.png";
 import dworkout from "@/public/project-2/d-workout.vercel.app_.png";
 import mangashop from "@/public/project-3/mangashop-nu.vercel.app.png"
+import isc from '@/public/work-projects/www.canada.ca_en_indigenous-services-canada.html.png';
 import minissentials from '@/public/project-4/minissentials.vercel.app.png'
 import Project from "@/components/Project";
 import ContactForm from "@/components/ContactForm";
@@ -100,7 +101,7 @@ export default function Home() {
               my keen eye for design to create fantastic products. My goal is to
               efficiently build and improve my skills by crafting dynamic,
               engaging, and easy-to-use web applications Check out my work in
-              the <strong>Projects</strong> section.
+              the <Link href={"#projects"}><strong>Projects</strong></Link> section.
             </p>
             <p>
               I&apos;m open to <strong>Job</strong> opportunities where I can
@@ -141,9 +142,9 @@ export default function Home() {
               <div className="flex flex-col gap-2 items-center py-3 px-4 rounded-md transition-all">
                 <BsFiletypeSql className="h-8 w-8 hover:scale-[1.2] transition-all hover:text-primary cursor-pointer " />SQL
               </div>
-              <div className="flex flex-col gap-2 items-center py-3 px-4 rounded-md transition-all">
+              {/* <div className="flex flex-col gap-2 items-center py-3 px-4 rounded-md transition-all">
                 <BsGit className="h-8 w-8 hover:scale-[1.2] transition-all hover:text-primary cursor-pointer " />Git
-              </div>
+              </div> */}
               <div className="flex flex-col gap-2 items-center py-3 px-4 rounded-md transition-all">
                 <FaGithub className="h-8 w-8 hover:scale-[1.2] transition-all hover:text-primary cursor-pointer " />GitHub
               </div>
@@ -160,10 +161,11 @@ export default function Home() {
             Projects
           </h1>
           <div className="text-center">
-            Here you will find my personal projects and their complete analysis
+            Here you will find my work and personal projects with their complete analysis
           </div>
         </div>
         <div className="flex flex-col gap-12 p-4 pt-24">
+        <Project name={"ISC/CIRNAC"} image={isc} description={"Here you will find some of my favourite projects that I have completed while working at Indigenous Services Canada as a Web Developer."} link={"/work-projects"}/>
           <Project
             name={"Breadit"}
             image={bread}
@@ -174,7 +176,8 @@ export default function Home() {
           />
           <Project name={"D Workout"} image={dworkout} description={"D Workout is a fullstack web application meant to fulfill one purpose : help people better themselves. They can book workouts with the fitness instructors that matches their needs."} link={'/project-2'} />
 
-          <Project name={"Mangashop"} image={mangashop} description={"Mangashop is a fullstack online manga shop web application. The user can manage his cart, his wishlist and explore the 100+ mangas. "} link={'/project-3'} note={"Note: this is my first fullstack web application ever."}/>
+            
+          {/* <Project name={"Mangashop"} image={mangashop} description={"Mangashop is a fullstack online manga shop web application. The user can manage his cart, his wishlist and explore the 100+ mangas. "} link={'/project-3'} note={"Note: this is my first fullstack web application ever."}/> */}
 
           <Project name={"Minissentials"} image={minissentials} description={"Minissentials is a frontend oriented web applications where all your living essentials can be found! The products are categorized and each offer an individual product page."} link={'/project-4'}/>
 
