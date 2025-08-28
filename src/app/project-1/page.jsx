@@ -28,14 +28,14 @@ export default function Project1() {
       <section className="flex items-center justify-center h-[70vh] bg-gray bg-cover">
         <div className="flex flex-col gap-8 items-center">
           <h1 className="text-3xl md:text-5xl font-[900] tracking-wide uppercase text-center leading-[1.2] ">
-            BREADIT
+            BREADDIT
           </h1>
           <p className="text-black/80 font-semibold text-center">
             This page contains the project overview, demonstrations, tools, and
             a live link.
           </p>
           <Link
-            href={"https://breadit-reddit-clone-snowy.vercel.app/"}
+            href={"https://breaddit-reddit-clone.vercel.app/"}
             className="mt-4 py-4 px-20 bg-primary text-white w-fit rounded-md font-bold hover:-translate-y-1 transition-all"
             target="_blank"
             rel="noopener"
@@ -65,7 +65,7 @@ export default function Project1() {
               CSS, Zod, modals and Google sign in.
             </div>
             <div>
-              Breadit is essentially a Next.js fullstack web application that
+              Breaddit is essentially a Next.js fullstack web application that
               allows users to create communities, subscribe to communities,
               post, upvote and downvote and comment.
             </div>
@@ -143,7 +143,7 @@ export default function Project1() {
               image={SignUpBread}
               title={"Sign Up"}
               p={
-                "At the top of the page you will find a button that will allow you to connect your Google account to Breadit"
+                "At the top of the page you will find a button that will allow you to connect your Google account to Breaddit"
               }
             />
             <div className="w-full border-b-2 border-black/20"></div>
@@ -218,7 +218,7 @@ export default function Project1() {
           </h1>
           <div className="flex flex-col md:flex-row gap-4">
             <Link
-              href={"https://breadit-reddit-clone-snowy.vercel.app/"}
+              href={"https://breaddit-reddit-clone.vercel.app/"}
               className="mt-4 py-4 px-12 bg-primary text-white w-fit rounded-md font-bold hover:-translate-y-1 transition-all"
               target="_blank"
               rel="noopener"
