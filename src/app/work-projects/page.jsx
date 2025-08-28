@@ -42,7 +42,7 @@ export default function ProjectWork() {
           </h1>
           <div className="flex flex-col gap-4 text-black/70">
             <div>
-              I had the opportunity to work as a Communications Web Developer at Indigenous Services Canada from December 2023 to May 2024.
+              I had the opportunity to work as a Communications Web Developer at Indigenous Services Canada from December 2023 to May 2024, and from December 2024-2025.
             </div>
             <div>
             In the <Link href={"/work-projects/#demonstrations"} className="text-primary font-bold underline">demonstrations section</Link> you will find some of my favourite work that I completed during my time at <Link className="text-primary font-bold underline" href={"https://www.canada.ca/en/indigenous-services-canada.html"} target="_blank" rel="noopener">ISC</Link>. These projects have helped me understand how to use HTML5 professionally. Additionally, they have helped me tremendously at maintaining excellent communication with clients and colleagues, as well as learning to manage many ongoing projects simultaneously.
