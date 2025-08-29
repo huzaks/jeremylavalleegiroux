@@ -167,10 +167,10 @@ export default function Home() {
         <div className="flex flex-col gap-12 p-4 pt-24">
         <Project name={"ISC/CIRNAC"} image={isc} description={"Here you will find some of my favourite projects that I have completed while working at Indigenous Services Canada as a Web Developer."} link={"/work-projects"}/>
           <Project
-            name={"Breadit"}
+            name={"Breaddit"}
             image={bread}
             description={
-              "Breadit is a fullstack Reddit clone built from a YouTube tutorial and improved by me. Reddit is a network of communities where people discuss whatever they like."
+              "Breaddit is a fullstack Reddit clone built from a YouTube tutorial and improved by me. Reddit is a network of communities where people discuss whatever they like."
             }
             link={'/project-1'}
           />

@@ -11,7 +11,10 @@ import work1 from "@/public/work-projects/www.sac-isc.gc.ca_eng_1709665163424_17
 import work2 from "@/public/work-projects/www.sac-isc.gc.ca_eng_1707323099962_1707323144536.png";
 import work3 from "@/public/work-projects/www.sac-isc.gc.ca_eng_1677260444177_1677260475526.png";
 import work4 from "@/public/work-projects/www.rcaanc-cirnac.gc.ca_eng_1100100030285_1529354158736.png";
-import work5 from "@/public/work-projects/www.rcaanc-cirnac.gc.ca_eng_1100100013251_1534874002459.png"
+import work5 from "@/public/work-projects/www.rcaanc-cirnac.gc.ca_eng_1100100013251_1534874002459.png";
+import work6 from "@/public/work-projects/www.rcaanc-cirnac.gc.ca_eng_1740671862450_1740671894828.png";
+import work7 from "@/public/work-projects/www.sac-isc.gc.ca_eng_1748871901482_1748871945070.png";
+import work8 from "@/public/work-projects/www.rcaanc-cirnac.gc.ca_eng_1740088130786_1740088160252.png";
 import "@/styles/main.css";
 import Footer from "@/components/Footer";
 import ProjectDemoWork from "@/components/ProjectDemoWork";
@@ -81,7 +84,7 @@ export default function ProjectWork() {
               </div>
           </div>
         </div>
-        <div className="flex flex-col max-w-5xl gap-4 " id="demonstrations">
+        <div className="flex flex-col max-w-5xl gap-4" id="demonstrations">
           <h1
        
             className="flex flex-col font-bold text-2xl tracking-widest after:content-[''] after:w-16 after:bg-primary after:rounded-md after:px-1 after:py-[2px]"
@@ -89,6 +92,43 @@ export default function ProjectWork() {
             Demonstrations
           </h1>
           <div className="flex flex-col gap-8 py-4">
+            {/* <ProjectDemoWork
+              image={work9}
+              title={"need title"}
+              p={
+                "need text"
+              }
+              link={"https://www.rcaanc-cirnac.gc.ca/eng/1750353653937"}
+            />
+            <div className="w-full border-b-2 border-black/20"></div> */}
+            <ProjectDemoWork
+              image={work8}
+              title={"2025-26 Details on transfer payment programs"}
+              p={
+                "My first time working on the annual Departmental Plan for CIRNAC, and this was the page that I coded. It primarily contains detailed tables with a lot of data."
+              }
+              link={"https://www.rcaanc-cirnac.gc.ca/eng/1740088130786/1740088160252"}
+            />
+            <div className="w-full border-b-2 border-black/20"></div>
+            <ProjectDemoWork
+              image={work7}
+              title={"Phase One Evaluation of the Mental Wellness Program"}
+              p={
+                "This was my second time developing an evaluation page, which needed a lot of attention to detail."
+              }
+              link={"https://www.sac-isc.gc.ca/eng/1748871901482/1748871945070"}
+            />
+            <div className="w-full border-b-2 border-black/20"></div>
+            <ProjectDemoWork
+              image={work6}
+              title={"Giant Mine Remediation Project Annual Report 2021-22"}
+              p={
+                "This was one of my biggest accomplishment. A lot of tables, images and panels for a big annual report."
+              }
+              link={"https://www.rcaanc-cirnac.gc.ca/eng/1740671862450/1740671894828"}
+            />
+            <div className="w-full border-b-2 border-black/20"></div>
+          
             <ProjectDemoWork
               image={work1}
               title={"Evaluation of Land Management Sub-Programs"}
