@@ -32,7 +32,7 @@ export default function ProjectDemoWork({image, title, p, link}){
                 </Link>
               </div>
               <div className="flex flex-col gap-4">
-                <h2 className="font-bold text-2xl">{title}</h2>
+                <h2 className="font-bold text-2xl"><Link href={link} target='_blank' rel='noopener' className='transition-all hover:text-primary'>{title}</Link></h2>
                 <p className="max-w-lg">
                   {p}
                 </p>
